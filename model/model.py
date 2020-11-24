@@ -4,7 +4,7 @@ import pandas as pd
 import matplotlib as mpl
 import matplotlib.pyplot as plt
 import seaborn as sns
-import scipy as stats
+from scipy import stats
 import missingno as msno
 
 # ggplot for expressing range of numbers in graph clearly
