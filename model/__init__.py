@@ -1,1 +1,2 @@
-from model import model
+from model import eda
+from model import regression
