@@ -127,7 +127,7 @@ categorical_feature_names = ["season",
                              "year",
                              "hour"]
 
-# raw => one hot encoding
+# raw => category type
 for var in categorical_feature_names:
     train[var] = train[var].astype("category")
     test[var] = test[var].astype("category")
